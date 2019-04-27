@@ -1,6 +1,6 @@
 {
   "name": "spider-core",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A core framework of spider base on node-crawler",
   "main": "index.js",
   "repository": "https://github.com/OpenEpicData/SpiderCore",
