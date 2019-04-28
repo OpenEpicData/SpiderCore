@@ -1,6 +1,6 @@
 {
   "name": "spider-core",
-  "version": "0.0.2",
+  "version": "0.0.1",
   "description": "A core framework of spider base on node-crawler",
   "main": "index.js",
   "repository": "https://github.com/OpenEpicData/SpiderCore",
@@ -10,10 +10,14 @@
     "lint": "eslint --fix --ext .js,.mjs --ignore-path .gitignore .",
     "popular_new": "node --experimental-modules  spider/popular_new.mjs"
   },
+  "keywords": [
+    "epcidata",
+    "spider",
+    "framework"
+  ],
   "dependencies": {
     "crawler": "^1.2.1",
-    "lowdb": "^1.0.0",
-    "socks-proxy-agent": "^4.0.2"
+    "lowdb": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^5.16.0"
