@@ -1,8 +1,8 @@
 import { spider } from '../lib/spider.mjs'
 
 
-class popular_new {
-  spider() {
+class index {
+  popular_new() {
     /**
      * 参数说明请浏览 ../lib/spider.mjs
      */
@@ -13,5 +13,5 @@ class popular_new {
   }
 }
 
-const popular_news = new popular_new()
-popular_news.spider()
+const popular_news = new index()
+popular_news.popular_new()

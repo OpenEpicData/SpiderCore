@@ -2,13 +2,13 @@
   "name": "spider-core",
   "version": "0.0.1",
   "description": "A core framework of spider base on node-crawler",
-  "main": "index.js",
+  "main": "spider/index.js",
   "repository": "https://github.com/OpenEpicData/SpiderCore",
   "author": "agdholo <agdholo@gmail.com>",
   "license": "MIT",
   "scripts": {
     "lint": "eslint --fix --ext .js,.mjs --ignore-path .gitignore .",
-    "popular_new": "node --experimental-modules  spider/popular_new.mjs"
+    "popular_new": "node --experimental-modules  spider/index.mjs"
   },
   "keywords": [
     "epcidata",
